@@ -11,6 +11,6 @@ public class ImportantTest {
 
     @Test
     public void shouldImportSomething() throws Exception {
-        GrandBouquet ignored = new Important().init();
+        GrandBouquet ignored = new Important().initWithEmpty();
     }
 }

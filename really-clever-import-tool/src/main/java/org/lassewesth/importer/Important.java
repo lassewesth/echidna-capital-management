@@ -10,7 +10,7 @@ public class Important {
         return grandBouquet;
     }
 
-    public GrandBouquet init() {
+    public GrandBouquet initWithEmpty() {
         return new GrandBouquet();
     }
 }
