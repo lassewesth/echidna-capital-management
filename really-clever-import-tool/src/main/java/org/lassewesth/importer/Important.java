@@ -9,4 +9,8 @@ public class Important {
         grandBouquet.store("baz", "42");
         return grandBouquet;
     }
+
+    public GrandBouquet init() {
+        return new GrandBouquet();
+    }
 }
